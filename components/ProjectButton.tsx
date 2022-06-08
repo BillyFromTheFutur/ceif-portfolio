@@ -15,7 +15,7 @@ const ProjectButton = () => {
                 marginLeft: '5px',
             }}
                 onClick={() => setVisible(true)}
-            ><Text h3 color='white' style={{ fontWeight: 'normal' }}>
+            ><Text h3 color="white" style={{ fontWeight: 'normal' }}>
                     Mes derniers projets 📱
                 </Text>
             </Button>
