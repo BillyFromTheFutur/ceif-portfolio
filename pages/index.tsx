@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Ceif's Portfolio</title>
+        <title>Ceif&apos;s Portfolio</title>
         <meta name="index page" content="Hard coded by ceif" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

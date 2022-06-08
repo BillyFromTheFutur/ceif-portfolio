@@ -39,20 +39,20 @@ const ProjectButton = () => {
                     <br />
                     <div>
                         <Text id="modal-title" size={18} color="white" style={{ backgroundColor: '#5530D9', minWidth: '10%', minHeight: 30, borderRadius: 5, display: 'flex', textAlign: 'center', alignItems: 'center', justifyContent: 'center' }}>
-                            📷Pic 'n' Share' :
+                            📷Pic &apos;n&apos; Share :
                         </Text>
                         <br />
                         <Text id="modal-description" style={{ display: 'flex', flexDirection: 'row' }}>
                             <div style={{ maxWidth: '75%' }}>
-                                Pic'n'Share est une appli mobile cross platform créer en react native et en pure php.<br />
-                                Elle permet de partager des photos que l'ont a fait lors d'un évennement avec des amis.
+                                Pic&apos;n&apos;Share est une appli mobile cross platform créer en react native et en pure php.<br />
+                                Elle permet de partager des photos que l&apos;ont a fait lors d&apos;un évennement avec des amis.
                                 Elle permet également de créer des albums photo et de les partager avec des amis.<br />
 
-                                J'ai développé cette appli durant mon stage. J'ai du moi même créer et mettre en place le processus de productione et de déployement au complet <br />
-                                L'appli est disponible sur le PlayStore et bientot sur l'Apple Store.
+                                J&apos;ai développé cette appli durant mon stage. J&apos;ai du moi même créer et mettre en place le processus de productione et de déployement au complet <br />
+                                L&apos;appli est disponible sur le PlayStore et bientot sur l&apos;Apple Store.
                                 <br /> <br /> Plusieurs fonctionnalité :<br />
                                 - Partage de photos <br />
-                                - Création d'albums<br />
+                                - Création d&apos;albums<br />
                                 - Evennement public et privé<br />
                                 - Diaporama de photos<br />
                                 - Connexion normal(système de token) ou via Google<br />
@@ -69,7 +69,7 @@ const ProjectButton = () => {
                                 </Card.Body>
                                 <Card.Footer css={{ justifyItems: "flex-start" }}>
                                     <Row wrap="wrap" justify="space-between" align="center">
-                                        <Text b>Pic'n'Share</Text>
+                                        <Text b>Pic&apos;n&apos;Share</Text>
                                         <Button auto style={{
                                             backgroundColor: "#9C52FF",
                                             border: 0,
@@ -100,11 +100,11 @@ const ProjectButton = () => {
                         <Text id="modal-description" style={{ display: 'flex', flexDirection: 'row' }}>
                             <div style={{ maxWidth: '65%' }}>
                                 MotoSenti Drive est une appli mobile cross platform créer en react native et en Symfony.<br />
-                                C'est une appli mobile qui permet de retracer des trajets de moto.<br />
+                                C&apos;est une appli mobile qui permet de retracer des trajets de moto.<br />
                                 <br />Plusieurs features sont disponible :<br />
                                 - Un système de connexion complexe avec un système de token<br />
                                 - Un système de partage de trajets<br />
-                                - La personnalisation de l'historique du trajet en fonction du boitier de la moto<br />
+                                - La personnalisation de l&apos;historique du trajet en fonction du boitier de la moto<br />
 
                             </div>
                             <Card hoverable css={{ maxWidth: '30%', marginLeft: '5%' }}>
@@ -147,7 +147,7 @@ const ProjectButton = () => {
                         <Text id="modal-description" style={{ display: 'flex', flexDirection: 'row' }}>
                             <div style={{ maxWidth: '65%' }}>
                                 Vaporweeb est une appli mobile en React-Native possédant un style particulier.
-                                <br />L'application n'est pas encore terminer, l'objectif étant d'utilise elixir/rust sur le long term et nestJS sur le cour terme.<br />
+                                <br />L&apos;application n&apos;est pas encore terminer, l&apos;objectif étant d&apos;utilise elixir/rust sur le long term et nestJS sur le cour terme.<br />
                                 <br />Des fonctionnalité assez basique tel que :<br />
                                 - La possibilité de se connecter<br />
                                 - Un style Windows95/98 particulier<br />
