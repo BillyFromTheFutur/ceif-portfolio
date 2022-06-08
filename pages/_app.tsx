@@ -9,6 +9,7 @@ import SizeScreen from './size'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const { height, width } = useWindowDimensions();
+  //@ts-ignore
   if (width < 1150) {
     return <SizeScreen />
 
