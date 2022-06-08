@@ -42,13 +42,12 @@ const QuotesCard = () => {
     <div>
       {Quotes.map((theQuote, index) => {
         const { author, quote } = theQuote;
-        const count = index + 1;
         if (index == activeQ) {
           return (
             <div>
               <Card bordered shadow={true} hoverable clickable css={{ width: '30.5vw', height: '20vh' }}>
                 <Text h2 style={{ fontWeight: 'normal', textAlign: 'center', textDecorationLine: 'underline', fontSize: 19 }}>{author}</Text>
-                <Text style={{ marginTop: '7%', fontWeight: 'normal', textAlign: 'center', fontSize: 20 }}>"{quote}"</Text>
+                <Text style={{ marginTop: '7%', fontWeight: 'normal', textAlign: 'center', fontSize: 20 }}>&quot;{quote}&quot;</Text>
               </Card>
             </div>
           )

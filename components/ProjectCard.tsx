@@ -1,4 +1,4 @@
-import { Card, Grid, Text, Link, Button } from "@nextui-org/react";
+import { Card, Grid, Text } from "@nextui-org/react";
 import ProjectButton from "./ProjectButton";
 import StoryButton from "./StoryButton";
 
