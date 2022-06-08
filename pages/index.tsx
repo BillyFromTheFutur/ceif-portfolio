@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
 
-        <Grid.Container justify='center' gap={2}>
+        <Grid.Container justify="center" gap={2}>
           <Grid xs >
             <LeftGrid />
           </Grid>

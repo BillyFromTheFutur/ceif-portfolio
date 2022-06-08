@@ -38,7 +38,7 @@ const ProjectButton = () => {
                     </Text>
                     <br />
                     <div>
-                        <Text id="modal-title" size={18} color='white' style={{ backgroundColor: '#5530D9', minWidth: '10%', minHeight: 30, borderRadius: 5, display: 'flex', textAlign: 'center', alignItems: 'center', justifyContent: 'center' }}>
+                        <Text id="modal-title" size={18} color="white" style={{ backgroundColor: '#5530D9', minWidth: '10%', minHeight: 30, borderRadius: 5, display: 'flex', textAlign: 'center', alignItems: 'center', justifyContent: 'center' }}>
                             📷Pic 'n' Share' :
                         </Text>
                         <br />
@@ -57,7 +57,7 @@ const ProjectButton = () => {
                                 - Diaporama de photos<br />
                                 - Connexion normal(système de token) ou via Google<br />
                             </div>
-                            <Card hoverable css={{ maxWidth: '30%', marginLeft: '5%' }}>
+                            <Card hoverable css={{ maxWidth: "30%", marginLeft: "5%" }}>
                                 <Card.Body css={{ p: 0 }}>
                                     <Card.Image
                                         src={"https://media.discordapp.net/attachments/964974538347659324/983459573824364594/01.jpg?width=1260&height=662"}
@@ -71,18 +71,18 @@ const ProjectButton = () => {
                                     <Row wrap="wrap" justify="space-between" align="center">
                                         <Text b>Pic'n'Share</Text>
                                         <Button auto style={{
-                                            backgroundColor: '#9C52FF',
+                                            backgroundColor: "#9C52FF",
                                             border: 0,
                                             borderRadius: 5,
                                             height: 35,
-                                            minWidth: '50%',
-                                            marginLeft: '5px',
+                                            minWidth: "50%",
+                                            marginLeft: "5px",
                                         }}
                                             onClick={() => {
                                                 window.open("https://github.com/BillyFromTheFutur/picshare/tree/master", "_blank");
                                             }
                                             }
-                                        ><Text h3 color='white' style={{ fontWeight: 'normal' }}>
+                                        ><Text h3 color="white" style={{ fontWeight: "normal" }}>
                                                 Source 📱
                                             </Text>
                                         </Button>
@@ -93,7 +93,7 @@ const ProjectButton = () => {
                     </div>
                     <br />
                     <div>
-                        <Text id="modal-title" size={18} color='white' style={{ backgroundColor: '#5530D9', minWidth: '10%', minHeight: 30, borderRadius: 5, display: 'flex', textAlign: 'center', alignItems: 'center', justifyContent: 'center' }}>
+                        <Text id="modal-title" size={18} color="white" style={{ backgroundColor: "#5530D9", minWidth: "10%", minHeight: 30, borderRadius: 5, display: 'flex', textAlign: 'center', alignItems: 'center', justifyContent: 'center' }}>
                             🚘 MotoSenti Drive :
                         </Text>
                         <br />
