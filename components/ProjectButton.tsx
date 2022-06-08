@@ -1,5 +1,5 @@
 import { Button, Text, useModal, Modal, Card, Row } from '@nextui-org/react'
-import React, { Component } from 'react'
+import React from 'react'
 
 const ProjectButton = () => {
     const { setVisible, bindings } = useModal();

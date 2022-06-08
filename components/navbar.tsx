@@ -3,7 +3,7 @@ import React from "react";
 import styles from '../styles/Navbar.module.css'
 import buttonStyles from '../styles/Button.module.css'
 import { useRouter } from "next/router";
-import { Button, Text, useModal } from "@nextui-org/react";
+import { useModal } from "@nextui-org/react";
 const NavBar = () => {
   const router = useRouter();
   const { setVisible, bindings } = useModal();

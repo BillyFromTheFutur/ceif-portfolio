@@ -1,9 +1,4 @@
-import { Button, Modal, Text, useModal } from "@nextui-org/react";
 import React from "react";
-import styles from '../styles/RightGrid.module.css'
-import stylesleft from '../styles/LeftGrid.module.css'
-
-import { CardProject } from "./CardProject";
 import QuotesCard from "./QuotesCard";
 import ProjectCard from "./ProjectCard";
 

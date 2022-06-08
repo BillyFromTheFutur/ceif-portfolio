@@ -1,6 +1,5 @@
-import { Button, Modal, Text, useModal, Link } from '@nextui-org/react'
-import Image from 'next/image'
-import React, { Component } from 'react'
+import { Button, Modal, Text, useModal } from '@nextui-org/react'
+import React from 'react'
 
 const StoryButton = () => {
     const { setVisible, bindings } = useModal();
