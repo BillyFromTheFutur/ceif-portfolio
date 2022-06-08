@@ -5,7 +5,7 @@ import { Grid } from '@nextui-org/react'
 import Image from 'next/image'
 import LeftGrid from '../components/LeftGrid'
 import RightGrid from '../components/RightGrid'
-import NavBar from '../components/navbar'
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
