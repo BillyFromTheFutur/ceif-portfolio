@@ -1,7 +1,5 @@
 import { Button, Text, useModal, Modal, Card, Row } from '@nextui-org/react'
-import Link from 'next/link';
 import React, { Component } from 'react'
-import { Carousel } from 'react-bootstrap';
 
 const ProjectButton = () => {
     const { setVisible, bindings } = useModal();
