@@ -1,0 +1,38 @@
+.mybuttonSelected {
+  text-align: center;
+  height: 27px;
+  text-decoration: none;
+  transition: all 0.30s ease-out;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0 2vw;
+}
+
+.mybuttonUnSelected {
+  text-align: center;
+  height: 27px;
+  text-decoration: none;
+  transition: all 0.30s ease-out;
+  /*background-color:#7CE4CF;*/
+  background:
+    /*rgba(0, 0, 0, 0)*/
+    #5530D9;
+  color: white;
+  border-radius: 5px;
+  padding: 0 1.5vw;
+}
+
+.mybuttonUnSelected:hover {
+  height: 27px;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.30s ease-out;
+  background-color: white;
+  color: black;
+  padding: 0 2vw;
+  /* background: linear-gradient(#80d9ed,#82f0ae); */
+}
+
+/*  min-width:85px;
+*/

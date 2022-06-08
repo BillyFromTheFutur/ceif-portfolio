@@ -1,0 +1,54 @@
+.containerPage {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-left: 1vw
+}
+
+.GreetingContainer {
+  background-color: white;
+  height: 8vh;
+  width: 32vw;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*opacity: 0.9;*/
+}
+
+@keyframes greetingText {
+  0% {
+    transform: translateY(-5%);
+    transition: ease 0.5s;
+  }
+
+  50% {
+    transform: translateY(5%);
+    transition: ease 0.5s;
+  }
+}
+
+.titleText {
+  display: grid;
+  place-items: center;
+  font-weight: normal;
+  padding: 5px;
+  color: white
+}
+
+.titleTextB {
+  display: grid;
+  place-items: center;
+  font-weight: normal;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  transform: translateY(-5%);
+  animation: greetingText 5.5s infinite;
+}
+
+.midText {
+  display: flex;
+  flex-direction: row;
+}
